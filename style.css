@@ -166,7 +166,7 @@
             text-align: center;
         }
 
-        .profile-pic {
+       /* .profile-pic {
             width: 300px;
             height: 300px;
             border-radius: 50%;
@@ -178,11 +178,28 @@
             font-size: 4rem;
             margin: 0 auto;
             transition: transform 0.3s ease;
-        }
+        } */
+        .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
+/*
         .profile-pic:hover {
             transform: scale(1.05);
-        }
+        } */
 
         /* Skills Section */
         .skills-grid {
